@@ -1,0 +1,12 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "postgres",
+  "password": "admin",
+  "database": "thebest",
+  "migrations": ["./src/database/migrations/*.ts"],
+  "cli": {
+    "migationsDir": "./src/database/migrations"
+  }
+}
